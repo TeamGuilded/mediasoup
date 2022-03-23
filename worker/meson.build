@@ -148,6 +148,7 @@ openssl_proj = subproject(
   'openssl',
   default_options: [
     'warning_level=0',
+    'asm=disabled'
   ],
 )
 nlohmann_json_proj = subproject(
